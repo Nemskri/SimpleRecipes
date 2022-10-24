@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simply Recipes || Contact</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!--nav bar-->
+  <nav class="navbar">
+    <div class="nav-center">
+      <!--Nav Header-->
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="Simple Recipes" />
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <!--Nav Links-->
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> Home </a>
+        <a href="about.html" class="nav-link"> About Us </a>
+        <a href="tags.html" class="nav-link"> Tags </a>
+        <a href="recipes.html" class="nav-link"> Recipes </a>
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--end of nav bar-->
+
+  <!--Main Content-->
+  <main class="page">
+    <section class="contact-container">
+      <article class="contact-info">
+        <h3>Want To Get In Touch?</h3>
+        <p>
+          Four dollar toast biodiesel plaid salvia actually pickled banjo
+          bespoke mlkshk intelligentsia edison bulb synth.
+        </p>
+        <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
+        <p>
+          Hashtag swag health goth air plant, raclette listicle fingerstache
+          cold-pressed fanny pack bicycle rights cardigan poke.
+        </p>
+      </article>
+      <article>
+        <form class="form contact-form">
+          <!--Single Row Form-->
+          <div class="form-row">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" name="name" id="name" class="form-input">
+          </div>
+          <!--Single Row Form End-->
+          <!--Single Row Form-->
+          <div class="form-row">
+            <label for="email" class="form-label">Your email</label>
+            <input type="text" name="email" id="email" class="form-input">
+          </div>
+          <!--Single Row Form End-->
+          <div class="form-row">
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Submit</button>
+        </form>
+      </article>
+    </section>
+
+    <section class="featured-recipes">
+      <h5 class="featured-title">Look at this Awesomesauce!</h5>
+      <!--Recipe list-->
+      <div class="recipes-list">
+
+        <!--Single Recipe-->
+        <a href="single-recipe.html" class="recipe">
+          <img src="./assets/recipes/recipe-1.jpeg" alt="Food" class="img recipe-img" />
+          <h5>Carne Asda</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <!--End of Single Recipe-->
+
+        <!--Single Recipe-->
+        <a href="single-recipe.html" class="recipe">
+          <img src="./assets/recipes/recipe-2.jpeg" alt="Food" class="img recipe-img" />
+          <h5>Greek Ribbs</h5>
+          <p>Prep : 40min | Cook : 30min</p>
+        </a>
+        <!--End of Single Recipe-->
+
+        <!--Single Recipe-->
+        <a href="single-recipe.html" class="recipe">
+          <img src="./assets/recipes/recipe-3.jpeg" alt="Food" class="img recipe-img" />
+          <h5>Vegetable Soup</h5>
+          <p>Prep : 15min | Cook : 8min</p>
+        </a>
+        <!--End of Single Recipe-->
+      </div>
+      <!--End of Recipe list-->
+    </section>
+  </main>
+
+  <!--End of Main Content-->
+  <!--Footer-->
+  <footer class="page-footer">
+    <p>
+      &copy;
+      <span id="date"></span>
+      <span class="footer-logo">SimplyRecipes</span>
+      Built by <a href="https://github.com/Nemskri">Nemskri</a>
+    </p>
+  </footer>
+
+
+
+</body>
+<script src="./js/app.js"></script>
+
+</html>
